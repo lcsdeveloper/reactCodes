@@ -1,4 +1,17 @@
-import additionFunction from "./sum";
+import oddOnly, {
+  sumValues
+} from "./sum";
+
+// import {
+//   multiply,
+//   subtraction as deduct
+// } from "./operations";
+
+import * as ops from "./operations";
+import {
+  asyncAdd
+} from "./async";
+
 // console.log("hello");
 // console.log("Apples");
 // console.log("This is a statement");
@@ -244,3 +257,21 @@ import additionFunction from "./sum";
 // let total = additionFunction(values);
 
 // console.log(`total: ${total}`)
+
+// let values = [10, 20, 30, 40, 50];
+// let total = sumValues(values);
+// let odds = oddOnly(values);
+// console.log(`total: ${total}, odd total: ${odds}`);
+// console.log(`Multiply: ${multiply(values)}`);
+// console.log(`Subtract: ${deduct(1000,values)}`);
+// console.log(`Multiply: ${ops.multiply(values)}`);
+// console.log(`Subtract: ${ops.subtraction(1000,values)}`);
+// let total = asyncAdd(values);
+// asyncAdd(values).then(total => console.log(`main total ${total}`));
+
+// async function doTask() {
+//   let total = await asyncAdd(values);
+//   console.log(`main total: ${total}`);
+// }
+
+// doTask();
